@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-page-main{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1rem;
+   height: 100%;
+}
+.right-side{
+ align-self: center;
+}
+.right-side h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.right-side h3{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.right-side h5{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.right-side a{
+    padding: 15px 30px ;
+    background-color: coral;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.left-img{
+
+}
+.left-img img{
+    max-width: 100%;
+    width: 100%;
+   height: auto;
+    background-color: antiquewhite;
+}

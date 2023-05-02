@@ -1,0 +1,37 @@
+.about-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    height: 100%;
+}
+
+.right{}
+.right img{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    background-color: rgb(133, 129, 127);
+}
+
+.left{
+    align-self: center; 
+}
+.left h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.left h5{
+    margin-bottom: 2rem;
+    line-height: 20px;
+    font-size: 1rem;
+}
+.left a{
+    padding: 15px 30px;
+    background-color: coral;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1rem;
+}
